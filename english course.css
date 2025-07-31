@@ -1,0 +1,301 @@
+@media (max-width: 768px) {
+  .div {
+    width: 95%;
+    padding: 1rem;
+    font-size: 1rem;
+    box-shadow: none;
+    border: 1px solid #2c3e50;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  
+}
+.body{
+
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    
+    background-size: cover;
+    background-image: linear-gradient( to right, #ffffff, #ffffff);
+
+    
+}
+.h1{
+   background: rgb(1, 245, 192);
+  margin: 2rem auto; /* وسط الشاشة أفقيًا */
+  width: 90%; /* يتغير حسب الشاشة */
+  max-width: 600px; /* الحد الأقصى */
+  text-align: center;
+  border: 2px solid #2c3e50;
+  color: #2c3e50;
+  padding: 1.5rem;
+  border-radius: 12px; /* شكل أنيق */
+  box-shadow: 10px 10px 20px #2c3e50  ;
+  white-space: pre-wrap;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ position: relative;
+ animation-name: hello;
+animation-duration:  1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-direction: alternate-reverse;
+
+
+
+
+}
+@keyframes hello{
+  0% {
+    
+    scale: 92%;
+  }
+  100% {
+    scale: 80%;
+  }
+} 
+.h1:hover{
+animation-play-state: paused;
+cursor: pointer;
+
+}
+
+
+
+.h2{
+    
+   background: rgb(23, 235, 199);
+  margin: 2rem auto; /* وسط الشاشة أفقيًا */
+  width: 90%; /* يتغير حسب الشاشة */
+  max-width: 600px; /* الحد الأقصى */
+  text-align: center;
+  border: 2px solid #2c3e50;
+  color: #2c3e50;
+  padding: 1.5rem;
+  border-radius: 12px; /* شكل أنيق */
+  box-shadow: 10px 10px 20px #2c3e50  ;
+  white-space: pre-wrap;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ position: relative;
+ animation-name: hello;
+animation-duration:  1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-direction: alternate-reverse;
+
+
+
+
+}
+@keyframes hello{
+  0% {
+    
+    scale: 92%;
+  }
+  100% {
+    scale: 80%;
+  }
+} 
+
+
+
+.h2:hover{
+animation-play-state: paused;
+cursor: pointer;
+
+}
+
+.div {
+  margin: 2rem auto;
+  
+  background-image:url(photo1.jpg) ; /* <-- ضع هنا رابط أو اسم الصورة */
+  
+
+  background-size: cover;
+
+  width: 90%; /* يتغير حسب الشاشة */
+  max-width: 600px; /* الحد الأقصى */
+  text-align: center;
+  border: 2px solid #2c3e50;
+  color: #2c3e50;
+  padding: 1.5rem;
+  border-radius: 12px; /* شكل أنيق */
+  box-shadow: 10px 10px 20px #2c3e50;
+  white-space: pre-wrap;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.4);
+
+   /* ✅ تصحيح هنا */
+}
+
+.legend{
+    margin: 2rem auto;
+    
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+  margin: 2rem auto; /* وسط الشاشة أفقيًا */
+  width: 90%; /* يتغير حسب الشاشة */
+  max-width: 600px; /* الحد الأقصى */
+  text-align: center;
+  border: 2px solid #2c3e50;
+  color: #2c3e50;
+  padding: 1.5rem;
+  border-radius: 12px; /* شكل أنيق */
+  box-shadow: 10px 10px 20px #2c3e50  ;
+  white-space: pre-wrap;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ position: relative;
+}
+.name{margin: 2rem auto;
+    
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+  margin: 2rem auto; /* وسط الشاشة أفقيًا */
+  width: 90%; /* يتغير حسب الشاشة */
+  max-width: 600px; /* الحد الأقصى */
+  text-align: center;
+  border: 2px solid #2c3e50;
+  
+  padding: 1.5rem;
+  border-radius: 12px; /* شكل أنيق */
+  box-shadow: 10px 10px 20px #2c3e50  ;
+  white-space: pre-wrap;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ position: relative;
+ font-size: x-large;
+ color: black;
+
+scale: 95%;}
+.name::selection{
+    font-size: large;
+    scale: 100%;
+
+
+}
+.famillyname{margin: 2rem auto;
+    
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+  margin: 2rem auto; /* وسط الشاشة أفقيًا */
+  width: 90%; /* يتغير حسب الشاشة */
+  max-width: 600px; /* الحد الأقصى */
+  text-align: center;
+  border: 2px solid #2c3e50;
+ 
+  padding: 1.5rem;
+  border-radius: 12px; /* شكل أنيق */
+  box-shadow: 10px 10px 20px #2c3e50  ;
+  white-space: pre-wrap;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ position: relative;
+
+scale: 95%;
+font-size: x-large;
+color: black;
+
+}
+
+.school{
+    display: block;
+    margin: 2rem auto;
+    
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+  margin: 2rem auto; /* وسط الشاشة أفقيًا */
+  width: 90%; /* يتغير حسب الشاشة */
+  max-width: 600px; /* الحد الأقصى */
+  text-align: center;
+  border: 2px solid #2c3e50;
+ 
+  padding: 1.5rem;
+  border-radius: 12px; /* شكل أنيق */
+  box-shadow: 10px 10px 20px #2c3e50  ;
+  white-space: pre-wrap;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ position: relative;
+ font-size: x-large;
+ color: black;
+    
+
+
+}
+
+.field{
+    display: block;
+    margin: 2rem auto;
+    
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+  margin: 2rem auto; /* وسط الشاشة أفقيًا */
+  width: 90%; /* يتغير حسب الشاشة */
+  max-width: 600px; /* الحد الأقصى */
+  text-align: center;
+  border: 2px solid #2c3e50;
+ 
+  padding: 1.5rem;
+  border-radius: 12px; /* شكل أنيق */
+  box-shadow: 10px 10px 20px #2c3e50  ;
+  white-space: pre-wrap;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ position: relative;
+ font-size: large;
+ color: black;
+}
+.submit{
+    background: rgba(0, 0, 0, 0.589);
+    display: block;
+    margin: 2rem auto;
+    
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+  margin: 2rem auto; /* وسط الشاشة أفقيًا */
+  width: 90%; /* يتغير حسب الشاشة */
+  max-width: 600px; /* الحد الأقصى */
+  text-align: center;
+  border: 2px solid #2c3e50;
+ 
+  padding: 1.5rem;
+  border-radius: 12px; /* شكل أنيق */
+  box-shadow: 10px 10px 20px #2c3e50  ;
+  white-space: pre-wrap;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ position: relative;
+ font-size: x-large;
+ color: rgb(248, 8, 8);
+}
+.tel{
+    display: block;
+    margin: 2rem auto;
+    
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+  margin: 2rem auto; /* وسط الشاشة أفقيًا */
+  width: 90%; /* يتغير حسب الشاشة */
+  max-width: 600px; /* الحد الأقصى */
+  text-align: center;
+  border: 2px solid #2c3e50;
+ 
+  padding: 1.5rem;
+  border-radius: 12px; /* شكل أنيق */
+  box-shadow: 10px 10px 20px #2c3e50  ;
+  white-space: pre-wrap;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ position: relative;
+ font-size: x-large;
+ color: black;
+}
+
+
+
+
+
+
